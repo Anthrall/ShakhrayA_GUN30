@@ -9,12 +9,18 @@ ShakhrayA_GUN30
 *один против 100+ пользователей 1С базы*
 
 ## Модули
-- [ ] Работа с редактором Unity <code style="color : gold">*в процессе*</code>)
-- [ ] Программирование на C# (<code style="color : red">*не начато*</code>)
-- [ ] C# в Unity (<code style="color : red">*не начато*</code>)
-- [ ] Разработка игры на Unity (<code style="color : red">*не начато*</code>)
-- [ ] Прототипирование в Unity (<code style="color : red">*не начато*</code>)
-- [ ] Создание мобильных игр (<code style="color : red">*не начато*</code>)
+- [ ] Работа с редактором Unity $${\color{Yellow}*в \space процессе*}$$
+- [ ] Программирование на C# $${\color{Red}*не \space начато*}$$
+- [ ] C# в Unity $${\color{Red}*не \space начато*}$$
+- [ ] Разработка игры на Unity $${\color{Red}*не \space начато*}$$
+- [ ] Прототипирование в Unity $${\color{Red}*не \space начато*}$$
+- [ ] Создание мобильных игр $${\color{Red}*не \space начато*}$$
 
 ## Диплом
 - [ ] Допуск
+
+### Дополнительное
+Для интереса, у меня парочка старых проектов по Unity завалялось.  
+
+1. [Карточная игра "Дипломат"](https://github.com/Anthrall/Skull-and-Bones-game)
+2. [Игра для геймджема за неделю](https://github.com/Anthrall/kind-pixie/)
