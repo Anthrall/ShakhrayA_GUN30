@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8558449190378218317}
   - component: {fileID: 970436492128276989}
   - component: {fileID: 5566140383508301457}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TankFree_Canon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 4827460557366326221}
   - component: {fileID: 7169960553370534617}
   - component: {fileID: 3157151186436223978}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TankFree_Wheel_b_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -199,7 +199,7 @@ GameObject:
   - component: {fileID: 4811716024463541417}
   - component: {fileID: 8459349852532935575}
   - component: {fileID: 64380570267226866}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -225,6 +225,7 @@ Transform:
   - {fileID: 5827480180460271580}
   - {fileID: 4541380557256571175}
   - {fileID: 8966603735109522169}
+  - {fileID: 215966737944879077}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &776490691226882507
@@ -486,7 +487,7 @@ GameObject:
   m_Component:
   - component: {fileID: 658843441773693034}
   - component: {fileID: 6656198216283720637}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FrontR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -560,7 +561,7 @@ GameObject:
   - component: {fileID: 5833229565049984402}
   - component: {fileID: 6608837224904514984}
   - component: {fileID: 5082436429042477636}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TankFree_Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -693,7 +694,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8341802266942895194}
   - component: {fileID: 2177709396632024234}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BackR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -754,6 +755,173 @@ WheelCollider:
   m_LayerOverridePriority: 0
   m_Enabled: 1
   m_ProvidesContacts: 0
+--- !u!1 &1918225590070886658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 215966737944879077}
+  - component: {fileID: 8625002756545069290}
+  m_Layer: 0
+  m_Name: VirtualCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &215966737944879077
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918225590070886658}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.13125667, y: 4.2258347e-15, z: -7.0831456e-17, w: 0.99134845}
+  m_LocalPosition: {x: 0, y: 2.0499997, z: -4.05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6803791295506432533}
+  m_Father: {fileID: 955032290548195337}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8625002756545069290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918225590070886658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ExcludedPropertiesInInspector:
+  - m_Script
+  m_LockStageInInspector: 
+  m_StreamingVersion: 20170927
+  m_Priority: 10
+  m_StandbyUpdate: 2
+  m_LookAt: {fileID: 8558449190378218317}
+  m_Follow: {fileID: 955032290548195337}
+  m_Lens:
+    FieldOfView: 40
+    OrthographicSize: 10
+    NearClipPlane: 0.3
+    FarClipPlane: 1000
+    Dutch: 0
+    ModeOverride: 0
+    LensShift: {x: 0, y: 0}
+    GateFit: 2
+    FocusDistance: 10
+    m_SensorSize: {x: 1, y: 1}
+  m_Transitions:
+    m_BlendHint: 0
+    m_InheritPosition: 0
+    m_OnCameraLive:
+      m_PersistentCalls:
+        m_Calls: []
+  m_LegacyBlendHint: 0
+  m_ComponentOwner: {fileID: 6803791295506432533}
+--- !u!1 &3062735476007721266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6803791295506432533}
+  - component: {fileID: 4359617417630323354}
+  - component: {fileID: 8069862886292291722}
+  - component: {fileID: 4393041512209518652}
+  m_Layer: 0
+  m_Name: cm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6803791295506432533
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3062735476007721266}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.9647788, y: -3.2921202, z: -21.46877}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 215966737944879077}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4359617417630323354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3062735476007721266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8069862886292291722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3062735476007721266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa7155796051b734daa718462081dc5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BindingMode: 1
+  m_FollowOffset: {x: 0, y: 2.05, z: -4.05}
+  m_XDamping: 1
+  m_YDamping: 1
+  m_ZDamping: 1
+  m_AngularDampingMode: 0
+  m_PitchDamping: 0
+  m_YawDamping: 0
+  m_RollDamping: 0
+  m_AngularDamping: 0
+--- !u!114 &4393041512209518652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3062735476007721266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4044717213e31446939f7bd49c896ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
+  m_LookaheadTime: 0
+  m_LookaheadSmoothing: 0
+  m_LookaheadIgnoreY: 0
+  m_HorizontalDamping: 0.5
+  m_VerticalDamping: 0.5
+  m_ScreenX: 0.5
+  m_ScreenY: 0.5
+  m_DeadZoneWidth: 0
+  m_DeadZoneHeight: 0
+  m_SoftZoneWidth: 0.8
+  m_SoftZoneHeight: 0.8
+  m_BiasX: 0
+  m_BiasY: 0
+  m_CenterOnActivate: 1
 --- !u!1 &3362414348446057098
 GameObject:
   m_ObjectHideFlags: 0
@@ -766,7 +934,7 @@ GameObject:
   - component: {fileID: 7390038059192154044}
   - component: {fileID: 3444555759288213033}
   - component: {fileID: 1907373846926401676}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TankFree_Wheel_f_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -864,7 +1032,7 @@ GameObject:
   - component: {fileID: 3077834669461094809}
   - component: {fileID: 8035578524638602689}
   - component: {fileID: 1886079271944366415}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TankFree_Wheel_f_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -962,7 +1130,7 @@ GameObject:
   - component: {fileID: 4393183290840264097}
   - component: {fileID: 5004527299601810200}
   - component: {fileID: 6355467570515790999}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TankFree_Wheel_b_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1058,7 +1226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7580055230628012247}
   - component: {fileID: 6830835357356706563}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FrontL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1129,7 +1297,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5718873226342436179}
   - component: {fileID: 245263683218330422}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BackL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1199,7 +1367,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2178440109975167614}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1215,7 +1383,7 @@ Transform:
   m_GameObject: {fileID: 6239391188958989101}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.894}
+  m_LocalPosition: {x: 0, y: 0, z: 0.977}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1232,7 +1400,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8966603735109522169}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wheels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1269,6 +1437,10 @@ PrefabInstance:
     - target: {fileID: 1273915125232972, guid: 01757334d0222ed4881ce8922d96bd92, type: 3}
       propertyPath: m_Name
       value: SmokeEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 1273915125232972, guid: 01757334d0222ed4881ce8922d96bd92, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4508696319873668, guid: 01757334d0222ed4881ce8922d96bd92, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1336,6 +1508,14 @@ PrefabInstance:
     - target: {fileID: 1743301284569550, guid: 0f5d80b13ed22d14b91a12eb2cfa86e6, type: 3}
       propertyPath: m_Name
       value: MuzzleFlash01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743301284569550, guid: 0f5d80b13ed22d14b91a12eb2cfa86e6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1992675705445476, guid: 0f5d80b13ed22d14b91a12eb2cfa86e6, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4300533007854612, guid: 0f5d80b13ed22d14b91a12eb2cfa86e6, type: 3}
       propertyPath: m_LocalPosition.x
