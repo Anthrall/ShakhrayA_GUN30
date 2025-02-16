@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Settings>k__BackingField:
   - Mult: 2
-    Text: Huh?
+    Text: 
     Clip: {fileID: 0}
   - Mult: 4
     Text: Oh...
