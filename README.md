@@ -11,7 +11,7 @@ ShakhrayA_GUN30
 ## Модули
 
 - [x] [Работа с редактором Unity](https://github.com/Anthrall/ShakhrayA_GUN30/tree/TankPrototype) - *ГОТОВО*
-- [ ] Программирование на C#  -  *не начато*
+- [ ] [Программирование на C#](https://github.com/Anthrall/Shakhray_GUN30_GUNPC)  -  *в процессе*
 - [ ] C# в Unity 				- *не начато*
 - [ ] Разработка игры на Unity - *не начато*
 - [ ] Прототипирование в Unity - *не начато*
